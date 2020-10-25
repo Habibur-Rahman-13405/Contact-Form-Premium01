@@ -1,0 +1,167 @@
+ *{
+  margin: 0;
+  padding: 0;
+ }
+ body{
+   background: url(https://i.imgur.com/Wpox1XH.jpg) no-repeat;
+  background-size: cover;
+  height: 700px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .contact{
+   width: 360px;
+
+ }
+ form{
+   margin: 3% auto;
+   width: 300px;
+   padding: 10px 5px;
+   background: #00000073;
+   box-shadow: 0px 10px 20px #000000;
+   text-align: center;
+   border-radius: 10px;
+ }
+ .contact marquee{
+   width: 180px;
+   font-size: 30px;
+   color: #3EFF03;
+   font-weight: bold;
+ }
+ /* input box*/
+ .input-box{
+    width: 85%;
+    margin: 10px auto;
+    position: relative;
+    
+  }
+  .input-box input{
+    width: 75%;
+    padding: 0px 30px;
+    height: 35px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 5px 8px -8px
+    #00000094;
+    font-size: 20px;
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid #3EFF03;
+    margin-top: 
+  }
+  ::placeholder{
+    color: #03F4FF;
+    font-size: 20px;
+  }
+ .same-icons{
+    position: absolute;
+    color: white;
+    line-height: 30px;
+    font-size: 22px;
+  
+ }
+ /*Password hide*/
+ #hide{
+   right: 0;
+   top: 0;
+   position: absolute;
+   color: yellow;
+   font-size: 20px;
+   margin: 5px 0px 0px 6px;
+ }
+ #hide1{
+   display: none;
+   color: white;
+ 
+ }
+ /*city Name*/
+ #city-name{
+  font-size: 23px;
+  padding-right: 55px;
+  color: #03f4ff;
+  font-weight: bold;
+  background: transparent;
+  margin-right: 15px;
+  border: none;
+  outline: none;
+
+    
+ }
+ .sel{
+   font-size: 22px;
+   color: white;
+   
+ }
+ hr{
+   width: 84%;
+   margin: auto;
+   border-bottom: 2px solid #3EFF03;
+  
+ }
+ /*gender*/
+ .gender{
+   display: inline-block;
+   margin: 0px 4px;
+   border: 2px solid #3EFF03;
+   padding: 3px 7px;
+   color: #03f4ff;
+   font-size: 20px;
+   border-radius: 5px;
+   font-weight: bold;
+   transition: 2s;
+ }
+ .iconify{
+   font-size: 20px;
+   color: white;
+   font-weight: bolder;
+   
+ }
+ 
+ /* file*/
+ .file{
+   margin: 15px auto;
+   width: 82%;
+   border-bottom: 2px solid #3EFF03;
+   height: 30px;
+   
+ }
+ .fil{
+   color: white;
+   font-size: 19.5px;
+   border-radius: 5px;
+   width: 100%;
+ }
+ /*text*/
+ #text{
+  height: 80px;
+  color: #FFFFFF;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 20px;
+  margin-top: 4px;
+ }
+ .massage{
+   margin: auto;
+   width: 245px;
+   border: 2px solid #3EFF03;
+   border-radius: 7px;
+ }
+ .massage ::placeholder{
+   color: #03f4ff;
+   font-size: 18px;
+   font-weight: bold;
+ }
+ /* button*/
+ .btn{
+   margin-top: 5px;
+  
+ }
+ .button{
+   padding: 5px 11px;
+   font-size: 25px;
+   margin: 10px;
+   border-radius: 10px;
+   border: 2px solid #3EFF03;
+ }
