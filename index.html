@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> Sign Up Form</title>
+  
+  <!-- HTML -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="contact">
+     <form>
+       <marquee>Contact US</marquee>
+       <div class="input-box">
+      <span class="same-icons"><i class="fas fa-user-edit"></i></span>
+      <input type="text" placeholder=" Enter Your Name" required/>
+       </div>
+       <div class="input-box">
+         <span class="same-icons"><i class="fas fa-phone-alt"></i>
+          </span>
+         <input type="number" placeholder="Enter Your Number" required />
+       </div>
+      <div class="input-box">
+        <span class="same-icons"><i class="fas fa-envelope"></i>
+        </span>
+        <input type="email" placeholder="Enter Your Email" required />
+       </div>
+      <div class="input-box">
+        <span class="same-icons"><i class="fas fa-key"></i>
+        </span>
+        
+        <input id="input" type="password" placeholder="Enter Your Password" required />
+        <span id="hide" onclick="js()">
+          <i id="hide1" class=" far fa-eye"></i>
+          <i id="hide2" class=" far fa-eye-slash"></i>
+        </span>
+      </div>
+  <div class="address">
+    <span class="sel">
+         <i class="far fa-address-card"></i>
+       </span>
+        <select id="city-name">
+          <option value="Select City...">
+            Select City...
+          </option>
+          <option value="Dhaka">
+            Dhaka
+          </option>
+          <option value="Chattogram">
+            Chattogram
+          </option>
+          <option value="Rajshahi">
+            Rajshahi
+          </option>
+          <option value="Khulna">
+            Khulna
+          </option>
+          <option value="Barishal">
+            Barishal
+          </option>
+          <option value="Sylhet">
+            Sylhet
+          </option>
+          <option value="Rangpur">
+            Rangpur
+          </option>
+          <option value="Mymensingh">
+            Mymensingh
+          </option>
+         </select>
+      </div><hr />
+      <div class="input-box">
+        <span class="same-icons"><i class="fas fa-map-marked-alt"></i>
+        </span>
+        <input type="number" placeholder="Enter Your Zip Code " required/>
+      </div>
+      <div class="gender">
+        Male
+        <span class="iconify" data-icon="et:profile-male" data-inline="false"></span>
+        <input type="radio" name="gender" value="male"/>
+      </div>
+      <div class="gender">
+        Female
+        <span class="iconify" data-icon="et:profile-female" data-inline="false"></span>
+        <input type="radio" name="gender" value="Female"/>
+      </div>
+ 
+      <div class="file">
+         <input class="fil" type="file" value="file">
+      </div> 
+      <div class="massage">
+        <textarea name="" placeholder="Type Your Massage..." id="text" cols="18"></textarea>
+      </div>
+      <div class="btn">
+        <button class="button" type="submit">Send</button>
+        <button class="button" type="reset">Delete All</button>
+      </div>
+   </form>
+  </div>
+  <!--java-->
+  <script>
+    function js(){
+      var x = document.getElementById("input");
+      var y = document.getElementById("hide1");
+      var z = document.getElementById("hide2");
+      if(x.type === 'password'){
+        x.type = 'text';
+        y.style.display = "block";
+        z.style.display = "none";
+      }
+      else{
+       x.type = 'password';
+       y.style.display = "none";
+       z.style.display = "block";
+      }
+    }
+  </script>
+  <!--icons-->
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+</body>
+</html>
